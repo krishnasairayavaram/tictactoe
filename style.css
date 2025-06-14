@@ -1,0 +1,56 @@
+body{
+    background-color: #CAF0F8;
+    text-align: center;
+}
+h1{
+    margin-top: 10vh;
+    color: #03045E;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 15px;
+    border-color: #03045E;
+    font-size: 8vmin;
+    color: #03045E;
+}
+#reset{
+    border-radius: 15px;
+    height: 45px;
+    width: 90px;
+    background-color: #90E0EF;
+    color: #03045E;
+    font-size: large;
+    font-weight: bold;
+}
+#newgame{
+    border-radius: 15px;
+    height: 45px;
+    width: 130px;
+    background-color: #90E0EF;
+    color: #03045E;
+    font-size: large;
+    font-weight: bold;
+}
+#congrats{
+    font-weight: bolder;
+    font-size: larger;
+}
+.hide{
+    display: none;
+}
